@@ -1,5 +1,15 @@
 priority -50
 
+snippet "^req" "require" r
+require '${0:filename}'
+endsnippet
+
+
+snippet "^reqr(el)?" "require_relative" r
+require_relative '${0:filename}'
+endsnippet
+
+
 snippet "^#!" "#!/usr/bin/env ruby" r
 #!/usr/bin/env ruby
 $0
